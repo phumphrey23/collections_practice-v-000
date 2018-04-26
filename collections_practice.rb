@@ -26,11 +26,11 @@ def kesha_maker(array)
   array.each {|element| element[2] = "$"}
 end
 
-def find_a
+def find_a(array)
   array.select {|element| element == "a"}
 end
 
-def sum_array
+def sum_array(array)
 
 end
 
